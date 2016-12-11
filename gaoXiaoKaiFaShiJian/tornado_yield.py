@@ -14,6 +14,7 @@ Tornado 协程化
 import tornado.web
 import tornado.httpclient
 import tornado.gen
+import tornado.ioloop
 
 
 class MainHandler(tornado.web.RequestHandler):
